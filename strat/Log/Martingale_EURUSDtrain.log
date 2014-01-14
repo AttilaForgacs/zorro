@@ -1,0 +1,52 @@
+
+Train: Martingale  2013
+Parameter 1 step  1:  1.00 => 1.22  98/52
+Parameter 1 step  2:  1.10 => 1.22  98/52
+Parameter 1 step  3:  1.21 => 1.23  98/52
+Parameter 1 step  4:  1.33 => 1.23  98/52
+Parameter 1 step  5:  1.46 => 1.23  98/52
+Parameter 1 step  6:  1.61 => 1.24  98/52
+Parameter 1 step  7:  1.77 => 1.24  98/52
+Parameter 1 step  8:  1.95 => 1.25  98/52
+Parameter 1 step  9:  2.14 => 1.25  98/52
+Parameter 1 step 10:  2.36 => 1.25  98/51
+Parameter 1 step 11:  2.59 => 1.25  98/50
+Parameter 1 step 12:  2.85 => 1.50  139/70
+Parameter 1 step 13:  3.14 => 1.50  139/71
+Parameter 1 step 14:  3.45 => 1.53  140/72
+Parameter 1 step 15:  3.80 => 1.54  141/74
+Parameter 1 step 16:  4.18 => 1.53  137/69
+Parameter 1 step 17:  4.59 => 1.55  137/69
+Parameter 1 step 18:  5.05 => 1.56  138/67
+Parameter 1 step 19:  5.56 => 1.58  139/66
+Parameter 1 step 20:  6.12 => 1.60  140/67
+Parameter 1 step 21:  6.73 => 1.33  101/45
+Parameter 1 step 22:  7.40 => 1.35  102/44
+Parameter 1 step 23:  8.14 => 1.37  102/44
+Parameter 1 step 24:  8.95 => 1.40  101/44
+Parameter 1 step 25:  9.85 => 1.45  104/46
+Parameter 1 step 26:  10.83 => 1.45  99/45
+Parameter 1 step 27:  11.92 => 1.45  95/44
+Parameter 1 step 28:  13.11 => 1.47  93/45
+Parameter 1 step 29:  14.42 => 1.51  93/45
+Parameter 1 step 30:  15.86 => 1.51  88/41
+Parameter 1 step 31:  17.45 => 1.57  88/41
+Parameter 1 step 32:  19.19 => 1.63  90/41
+Parameter 1 step 33:  21.11 => 1.69  89/42
+Parameter 1 step 34:  23.23 => 1.86  91/44
+Parameter 1 step 35:  25.55 => 1.85  96/36
+Parameter 1 step 36:  28.10 => 1.82  99/25
+Parameter 1 step 37:  30.91 => 1.87  99/22
+Parameter 1 step 38:  34.00 => 1.96  99/22
+Parameter 1 step 39:  37.40 => 2.01  95/21
+Parameter 1 step 40:  41.14 => 2.08  89/21
+Parameter 1 step 41:  45.26 => 2.16  86/21
+Parameter 1 step 42:  49.79 => 2.21  83/19
+Parameter 1 step 43:  50.00 => 2.21  84/18
+Selected p1[41] = 45.1  => 2.14
+
+EUR/USD:: 45.1=> 2.697
+
+Parameters stored in Martingale_EURUSD.par
+
+Time 00:05:21

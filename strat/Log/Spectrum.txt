@@ -1,0 +1,7 @@
+BackTest Spectrum SPX500 - performance report
+
+Test period         21.01.2013-02.02.2013
+Lookback time       300 bars (18 days)
+Assumed slippage    10.0 sec
+Assumed spread      5.0 pips (roll -0.11/0.00)
+Contracts per lot   1

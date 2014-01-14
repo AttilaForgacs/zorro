@@ -1,0 +1,228 @@
+SetupType=Custom
+GroupNames=|Main Group|
+UserData=|Windows User|||
+Version=1.0
+ComposerVersion=11.0.0.2
+
+PROG_NAME=Zorro Trading Automaton
+COMPANY_URL=http://zorro-trader.com
+CHAR_SET=0
+FONT_NAME=Tahoma
+FONT_SIZE=8
+GET_HIDE_QSETUP_WATER_MARK=1
+GET_DIALOG_BITMAP_3D_FRAME=1
+GET_AUTO_UPDATE_EXE_FILE_NAME=
+GET_AUTO_UPDATE_EXE_DIR=C:\Program Files (x86)\Zorro
+GET_PROG_EXE_NAME=C:\Program Files (x86)\Zorro\Zorro.exe
+GET_DIALOG_STYLE_MODERN=1
+IS_RUNNING_TEST=1
+GET_CREATE_64BIT_SETUP=0
+GET_REQUEST_ELEVATION=1
+GET_TEST_ADMIN_RIGHTS_UNINSTALL=1
+GET_IGNORE_ADMIN_TESTS_ON_VISTA=1
+GET_HIDE_ERR_MSG_UNINSTALL=1
+GET_HIDE_LOG_BTN_UNINSTALL=1
+SILENT_UNINSTALL=0
+HIDDEN_UNINSTALL=0
+
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Zorro_setup_16862.txt);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Setup.log);
+RunTimeDir_1=|||||||1||||1||1|<ProgramFilesDir>|||||||
+RunTimeDir_2=|||||||1||||1||1|<ProgramFilesDir>|||||||
+RunTimeDir_3=|||||||1||||1||1|<ProgramFilesDir>|||||||
+RunTimeDir_4=|||||||1||||1||1|<ProgramFilesDir>|||||||
+RunTimeDir_5=|||||||1||||1||1|<ProgramFilesDir>|||||||
+RunTimeDir_6=|||||||1||||1||1|<ProgramFilesDir>|||||||
+RunTimeDir_7=|||||||1||||1||1|<ProgramFilesDir>|||||||
+RunTimeDir_8=|||||||1||||1||1|<ProgramFilesDir>|||||||
+REMOVE_REG_KEY(HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\UnInstall\Zorro Trading Automaton);
+
+REMOVE_REG_KEY(HKEY_LOCAL_MACHINE\Software\oP group Germany GmbH\Zorro Trading Automaton);
+REMOVE_REG_KEY(HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\Zorro.exe);
+TargetDir=C:\Program Files (x86)\Zorro
+SharedDir=C:\Program Files (x86)\Common Files
+AuxiliaryDir=C:\Windows\Fonts
+REMOVE_DIR(C:\Program Files (x86)\Zorro);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\api.def);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\cKeywords.db);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\dagocmd.db);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Keywords.db);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Microsoft.VC80.CRT.manifest);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\SED.exe);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\zorro.chm);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Zorro.exe);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\ZorroMT4.zip);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Zview.exe);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\ackutl.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\chartdir51.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\ForexConnect.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\fxcmlogger.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\fxcmrtmp.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\fxmsg.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\gsexpat.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\gslibeay32.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\gsssleay32.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\gstool2.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\gstool3.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\gszlib.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\httplib.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\log4cplus.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\mfc71.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\mfc80u.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\msvcp71.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\msvcp80.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\msvcr71.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\msvcr80.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\pdas.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\rdastp.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\rtmptp.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\loss.wav);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\optimize.wav);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\trade.wav);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\trail.wav);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\win.wav);
+
+REMOVE_DIR(C:\Program Files (x86)\Zorro\Data);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z12.fac);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z12.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z12oos.fac);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z12_1.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z12_10.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z12_11.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z12_2.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z12_3.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z12_4.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z12_5.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z12_6.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z12_7.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z12_8.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z12_9.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z3.fac);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z3.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z3_1.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z3_2.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z3_3.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z3_4.par);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Data\Z3_5.par);
+
+REMOVE_DIR(C:\Program Files (x86)\Zorro\include);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\include\candle.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\include\com.h);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\include\default.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\include\functions.h);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\include\indicators.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\include\litec.h);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\include\profile.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\include\stdio.h);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\include\ta.h);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\include\trading.h);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\include\variables.h);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\include\windows.h);
+
+REMOVE_DIR(C:\Program Files (x86)\Zorro\Plugin);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Plugin\FXCM.dll);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Plugin\ZorroMT4.dll);
+
+REMOVE_DIR(C:\Program Files (x86)\Zorro\Source);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Source\FXCMplugin.cpp);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Source\stdafx.cpp);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Source\stdafx.h);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Source\Zorro.mq4);
+
+REMOVE_DIR(C:\Program Files (x86)\Zorro\Strategy);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Analysis.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\CalculatePi.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Combine.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Distribution.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Download.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Ehlers.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Filter.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Gap.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Grid.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\IndicatorTest.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Luxor.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Mandelbrot.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Martingale.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\RandomPrice.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\RandomWalk.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Simulate.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Spectrum.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\TradeTest.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop1.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop2.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop3_1.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop3_2.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop4_1.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop4_2.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop5_1.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop5_2.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop5_3.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop6_1.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop6_2.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop7.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop8_1.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop8_2.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop8_3.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Workshop8_4.c);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Z.ini);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Z1.x);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Z12.x);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Z2.x);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Z3.x);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Z4.x);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\Strategy\Z5.x);
+
+REMOVE_DIR(C:\Program Files (x86)\Zorro\History);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\EURCHF_2011.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\EURCHF_2012.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\EURCHF_2013.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\EURUSD_2002.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\EURUSD_2003.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\EURUSD_2004.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\EURUSD_2005.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\EURUSD_2006.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\EURUSD_2007.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\EURUSD_2008.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\EURUSD_2009.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\EURUSD_2010.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\EURUSD_2011.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\EURUSD_2012.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\EURUSD_2013.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\USDJPY_2002.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\USDJPY_2003.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\USDJPY_2004.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\USDJPY_2005.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\USDJPY_2006.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\USDJPY_2007.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\USDJPY_2008.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\USDJPY_2009.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\USDJPY_2010.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\USDJPY_2011.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\USDJPY_2012.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\USDJPY_2013.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\XAGUSD_2008.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\XAGUSD_2009.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\XAGUSD_2010.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\XAGUSD_2011.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\XAGUSD_2012.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\XAGUSD_2013.bar);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\Assets.dta);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\AssetsFix.dta);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\AssetsMicro.dta);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\AssetsMini.dta);
+REMOVE_FILE(C:\Program Files (x86)\Zorro\History\AssetsUS.dta);
+
+REMOVE_DIR(C:\Program Files (x86)\Zorro\Log);
+
+REMOVE_REG_KEY(HKEY_LOCAL_MACHINE\Software\oP group Germany GmbH\Zorro Trading Automaton\1.20.1);
+REMOVE_FILE(C:\Users\attila\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Zorro Trading Automaton\Zorro.lnk);
+REMOVE_FOLDER(C:\Users\attila\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Zorro Trading Automaton);
+AVOID_ERR_REMOVE_DIR(C:\Users\attila\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Zorro Trading Automaton);
+REMOVE_FILE(C:\Users\attila\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Zorro Trading Automaton\Script Editor.lnk);
+REMOVE_FILE(C:\Users\attila\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Zorro Trading Automaton\Uninstall Zorro Trading Automaton.lnk);
+REMOVE_FILE(C:\Users\attila\Desktop\Zorro.lnk);
+REMOVE_FILE(C:\Users\attila\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\Zorro.lnk);
+
+VARIABLE_VALUES=
+CASE_SENSITIVE=1
+WHOLE_WORD=0

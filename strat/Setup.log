@@ -1,0 +1,229 @@
+Setup Log of: Zorro Trading Automaton
+Version: 1.20.1
+
+Date: 31-DEC-2013 09:40:31
+Operating System: Win2012.64  6.2  9200 - x64 Server
+Composer Version: 11.0.0.2
+
+WinTempDir: C:\Users\attila\AppData\Local\Temp
+SourceDir:  C:\Users\attila\AppData\Local\Temp\SETUP_43120
+
+Execute at: (1) --- Setup Start
+Execute at: (22) --- Before Dialogs
+Show Setup Dialog: Welcome
+Show Setup Dialog: License Agreement
+Show Setup Dialog: Readme
+Execute at: (7) --- Before User Information
+Show Setup Dialog: User Information
+Execute at: (8) --- After User Information
+Execute at: (13) --- Before Destination
+Show Setup Dialog: Choose Destination Location
+Execute at: (14) --- After Destination
+Execute at: (17) --- Before Shortcuts
+Show Setup Dialog: Set Program Shortcuts
+Execute at: (18) --- After Shortcuts
+Show Setup Dialog: Confirm Setup Settings
+Create Target Directory: C:\Program Files (x86)\Zorro ... TRUE
+Show Setup Dialog: Copying Files
+Execute at: (2) --- Before Copy
+Handle First UnInstall Data
+  Copy File: C:\Program Files (x86)\Zorro\Zorro_setup_16862.exe ... OK
+
+Start Copy Directory
+  (C:\Program Files (x86)\Zorro)
+  Copy File: C:\Program Files (x86)\Zorro\api.def ... OK
+  Copy File: C:\Program Files (x86)\Zorro\cKeywords.db ... OK
+  Copy File: C:\Program Files (x86)\Zorro\dagocmd.db ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Keywords.db ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Microsoft.VC80.CRT.manifest ... OK
+  Copy File: C:\Program Files (x86)\Zorro\SED.exe ... OK
+  Copy File: C:\Program Files (x86)\Zorro\zorro.chm ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Zorro.exe ... OK
+  Copy File: C:\Program Files (x86)\Zorro\ZorroMT4.zip ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Zview.exe ... OK
+  Copy File: C:\Program Files (x86)\Zorro\ackutl.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\chartdir51.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\ForexConnect.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\fxcmlogger.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\fxcmrtmp.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\fxmsg.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\gsexpat.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\gslibeay32.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\gsssleay32.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\gstool2.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\gstool3.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\gszlib.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\httplib.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\log4cplus.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\mfc71.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\mfc80u.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\msvcp71.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\msvcp80.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\msvcr71.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\msvcr80.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\pdas.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\rdastp.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\rtmptp.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\loss.wav ... OK
+  Copy File: C:\Program Files (x86)\Zorro\optimize.wav ... OK
+  Copy File: C:\Program Files (x86)\Zorro\trade.wav ... OK
+  Copy File: C:\Program Files (x86)\Zorro\trail.wav ... OK
+  Copy File: C:\Program Files (x86)\Zorro\win.wav ... OK
+
+Start Copy Directory
+  (C:\Program Files (x86)\Zorro\Data)
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z12.fac ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z12.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z12oos.fac ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z12_1.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z12_10.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z12_11.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z12_2.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z12_3.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z12_4.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z12_5.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z12_6.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z12_7.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z12_8.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z12_9.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z3.fac ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z3.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z3_1.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z3_2.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z3_3.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z3_4.par ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Data\Z3_5.par ... OK
+
+Start Copy Directory
+  (C:\Program Files (x86)\Zorro\include)
+  Copy File: C:\Program Files (x86)\Zorro\include\candle.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\include\com.h ... OK
+  Copy File: C:\Program Files (x86)\Zorro\include\default.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\include\functions.h ... OK
+  Copy File: C:\Program Files (x86)\Zorro\include\indicators.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\include\litec.h ... OK
+  Copy File: C:\Program Files (x86)\Zorro\include\profile.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\include\stdio.h ... OK
+  Copy File: C:\Program Files (x86)\Zorro\include\ta.h ... OK
+  Copy File: C:\Program Files (x86)\Zorro\include\trading.h ... OK
+  Copy File: C:\Program Files (x86)\Zorro\include\variables.h ... OK
+  Copy File: C:\Program Files (x86)\Zorro\include\windows.h ... OK
+
+Start Copy Directory
+  (C:\Program Files (x86)\Zorro\Plugin)
+  Copy File: C:\Program Files (x86)\Zorro\Plugin\FXCM.dll ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Plugin\ZorroMT4.dll ... OK
+
+Start Copy Directory
+  (C:\Program Files (x86)\Zorro\Source)
+  Copy File: C:\Program Files (x86)\Zorro\Source\FXCMplugin.cpp ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Source\stdafx.cpp ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Source\stdafx.h ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Source\Zorro.mq4 ... OK
+
+Start Copy Directory
+  (C:\Program Files (x86)\Zorro\Strategy)
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Analysis.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\CalculatePi.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Combine.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Distribution.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Download.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Ehlers.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Filter.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Gap.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Grid.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\IndicatorTest.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Luxor.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Mandelbrot.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Martingale.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\RandomPrice.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\RandomWalk.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Simulate.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Spectrum.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\TradeTest.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop1.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop2.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop3_1.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop3_2.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop4_1.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop4_2.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop5_1.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop5_2.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop5_3.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop6_1.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop6_2.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop7.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop8_1.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop8_2.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop8_3.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Workshop8_4.c ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Z.ini ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Z1.x ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Z12.x ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Z2.x ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Z3.x ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Z4.x ... OK
+  Copy File: C:\Program Files (x86)\Zorro\Strategy\Z5.x ... OK
+
+Start Copy Directory
+  (C:\Program Files (x86)\Zorro\History)
+  Copy File: C:\Program Files (x86)\Zorro\History\EURCHF_2011.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\EURCHF_2012.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\EURCHF_2013.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\EURUSD_2002.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\EURUSD_2003.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\EURUSD_2004.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\EURUSD_2005.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\EURUSD_2006.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\EURUSD_2007.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\EURUSD_2008.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\EURUSD_2009.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\EURUSD_2010.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\EURUSD_2011.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\EURUSD_2012.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\EURUSD_2013.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\USDJPY_2002.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\USDJPY_2003.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\USDJPY_2004.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\USDJPY_2005.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\USDJPY_2006.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\USDJPY_2007.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\USDJPY_2008.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\USDJPY_2009.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\USDJPY_2010.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\USDJPY_2011.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\USDJPY_2012.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\USDJPY_2013.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\XAGUSD_2008.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\XAGUSD_2009.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\XAGUSD_2010.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\XAGUSD_2011.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\XAGUSD_2012.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\XAGUSD_2013.bar ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\Assets.dta ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\AssetsFix.dta ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\AssetsMicro.dta ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\AssetsMini.dta ... OK
+  Copy File: C:\Program Files (x86)\Zorro\History\AssetsUS.dta ... OK
+
+Execute at: (3) --- After Copy
+Registering Components --- Start
+
+Create Start/Program shortcut:
+  Zorro Trading Automaton\Zorro  (C:\Program Files (x86)\Zorro\Zorro.exe) ... OK
+Create Start/Program shortcut:
+  Zorro Trading Automaton\Script Editor  (C:\Program Files (x86)\Zorro\SED.exe) ... OK
+Create Start/Program shortcut:
+  Zorro Trading Automaton\Uninstall Zorro Trading Automaton  (C:\Program Files (x86)\Zorro\Zorro_setup_16862.exe) ... OK
+Create Desktop shortcut:
+  Zorro  (C:\Program Files (x86)\Zorro\Zorro.exe) ... OK
+Create Quick Launch shortcut:
+  Zorro  (C:\Program Files (x86)\Zorro\Zorro.exe) ... OK
+
+Registering Components --- End
+
+Execute at: (23) --- After Reg Components
+Execute at: (19) --- Before Complete
+Show Setup Dialog: Setup Complete
+Execute at: (20) --- After Complete
+Execute at: (4) --- Setup End

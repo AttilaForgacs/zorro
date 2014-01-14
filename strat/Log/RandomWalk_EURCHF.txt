@@ -1,0 +1,7 @@
+BackTest RandomWalk EUR/CHF - performance report
+
+Test period         06.01.2011-22.11.2013
+Lookback time       80 bars (3 days)
+Assumed slippage    10.0 sec
+Assumed spread      2.4 pips (roll 0.02/-0.06)
+Contracts per lot   1000

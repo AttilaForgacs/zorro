@@ -1,0 +1,42 @@
+BackTest Martingale XAG/USD - performance report
+
+Test period         02.01.2013-25.10.2013
+Lookback time       1000 bars (16 hours)
+Assumed slippage    10.0 sec
+Assumed spread      4.4 pips (roll -0.00/0.00)
+Contracts per lot   50
+Capital invested    10000$
+
+Gross win/loss      5810$ / -4951$ (+2262p)
+Average profit      1061$/year, 88$/month, 4.08$/day
+Max drawdown        -8874$ 1032% (MAE -8911$ 1037%)
+Total down time     90% (TAE 76%)
+Max down time       14 weeks from Jun 2013
+Largest margin      1090$
+Trade volume        387030$ (477601$/year)
+Transaction costs   -746$ spr, 8.14$ slp, -0.01$ rol
+Capital required    9847$
+
+Number of trades    242 (299/year, 6/week, 2/day)
+Percent winning     20%
+Max win/loss        3063$ / -1081$
+Avg trade profit    3.55$ 9.3p (+121$ / -26$)
+Avg trade slippage  0.03$ 0.1p (+0.30$ / -0.24$)
+Avg trade bars      3331 (+2687 / -3491)
+Max trade bars      73207 (10 weeks)
+Time in market      293%
+Max open trades     14
+Max loss streak     120 (uncorrelated 27)
+
+Annual growth rate  11%
+Profit factor       1.17 (PRR 0.94)
+Sharpe ratio        0.14
+Kelly criterion     0.18
+Ulcer index         137.0%
+Prediction error    48%
+
+Portfolio analysis  OptF  ProF  Win/Loss  Wgt%
+
+XAG/USD             .1000  1.17   48/194 100.0  
+XAG/USD:L           .1000  1.17   48/194 100.0  
+XAG/USD:S           .1000  ----    0/0     0.0  

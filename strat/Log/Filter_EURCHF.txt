@@ -1,0 +1,7 @@
+BackTest Filter EUR/CHF - performance report
+
+Test period         07.01.2011-02.03.2011
+Lookback time       100 bars (4 days)
+Assumed slippage    10.0 sec
+Assumed spread      2.4 pips (roll 0.02/-0.06)
+Contracts per lot   1000

@@ -1,0 +1,60 @@
+Walk-Forward Test Z3 portfolio - performance report
+
+Simulation period   28.04.2008-26.10.2013
+Test period         31.03.2011-26.10.2013
+WFO test cycles     5 x 776 bars (26 weeks)
+Training cycles     6 x 4397 bars (151 weeks)
+Lookback time       480 bars (16 weeks)
+Assumed slippage    10.0 sec
+
+Gross win/loss      24073$ / -12943$ (+429108p)
+Average profit      4325$/year, 360$/month, 17$/day
+Max drawdown        -1460$ 13% (MAE -1759$ 16%)
+Total down time     62% (TAE 88%)
+Max down time       17 weeks from May 2012
+Largest margin      322$
+Trade volume        4230071$ (1643653$/year)
+Transaction costs   -1045$ spr, 24896$ slp, -50$ rol
+Capital required    1898$
+
+Number of trades    309 (121/year, 3/week, 1/day)
+Percent winning     65%
+Max win/loss        1240$ / -425$
+Avg trade profit    36$ 1388.7p (+119$ / -121$)
+Avg trade slippage  81$ 3106.4p (+163$ / -1.79$)
+Avg trade bars      27 (+33 / -14)
+Max trade bars      244 (8 weeks)
+Time in market      216%
+Max open trades     5
+Max loss streak     5 (uncorrelated 6)
+
+Annual return       257%
+Profit factor       1.86 (PRR 1.58)
+Sharpe ratio        1.79
+Kelly criterion     1.42
+Ulcer index         5.3%
+Prediction error    36%
+
+Portfolio analysis  OptF  ProF  Win/Loss  Wgt%  Cycles
+
+EUR/USD avg         .021  1.79   40/30    24.7  //X/X
+GBP/USD avg         .037  1.13   45/32     2.9  //\X\
+USD/CHF avg         .011  2.05   38/30    26.2  XXXXX
+XAG/USD avg         .010  1.91   28/10    22.6  X////
+XAU/USD avg         .010  2.95   51/5     23.6  //XX/
+
+EUR/USD             .018  1.79   40/30    24.7  //X/X
+EUR/USD:L           .023  1.63   19/13     8.3  //\/\
+EUR/USD:S           .018  1.90   21/17    16.4  /////
+GBP/USD             .034  1.13   45/32     2.9  //\X\
+GBP/USD:L           .039  1.13   19/16     1.4  //\\\
+GBP/USD:S           .034  1.12   26/16     1.5  //\/\
+USD/CHF             .016  2.05   38/30    26.2  XXXXX
+USD/CHF:L           .000  0.79   17/15    -3.0  \/\\\
+USD/CHF:S           .022  3.71   21/15    29.2  /\///
+XAG/USD             .011  1.91   28/10    22.6  X////
+XAG/USD:L           .011  2.64   11/3     15.0  /////
+XAG/USD:S           .009  1.48   17/7      7.5  \////
+XAU/USD             .010  2.95   51/5     23.6  //XX/
+XAU/USD:L           .010  3.12   28/2      9.9  ///\/
+XAU/USD:S           .010  2.85   23/3     13.7  //\//

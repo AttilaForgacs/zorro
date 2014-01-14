@@ -1,0 +1,41 @@
+BackTest Z4 EUR/CHF - performance report
+
+Test period         20.09.2011-22.11.2013
+Lookback time       480 bars (28 days)
+Assumed slippage    10.0 sec
+Assumed spread      2.4 pips (roll 0.02/-0.06)
+Contracts per lot   1000
+
+Gross win/loss      1060$ / -56$ (+12415p)
+Average profit      462$/year, 38$/month, 1.78$/day
+Max drawdown        -80$ 8% (MAE -88$ 9%)
+Total down time     74% (TAE 87%)
+Max down time       38 weeks from Dec 2011
+Largest margin      70$
+Trade volume        595545$ (273757$/year)
+Transaction costs   -116$ spr, -12$ slp, -1.12$ rol
+Capital required    164$
+
+Number of trades    574 (264/year, 6/week, 2/day)
+Percent winning     97%
+Max win/loss        15$ / -11$
+Avg trade profit    1.75$ 21.6p (+1.90$ / -3.71$)
+Avg trade slippage  -0.02$ -0.3p (+0.09$ / -0.13$)
+Avg trade bars      169 (+152 / -785)
+Max trade bars      7747 (66 weeks)
+Time in market      716%
+Max open trades     23
+Max loss streak     7 (uncorrelated 1)
+
+Annual return       355%
+Profit factor       19.03 (PRR 14.49)
+Sharpe ratio        2.58
+Kelly criterion     2.37
+Ulcer index         4.1%
+Prediction error    42%
+
+Portfolio analysis  OptF  ProF  Win/Loss  Wgt%
+
+EUR/CHF             .450  19.03  559/15  100.0  
+EUR/CHF:L           .444  14.56  310/11   58.0  
+EUR/CHF:S           .754  34.12  249/4    42.0  

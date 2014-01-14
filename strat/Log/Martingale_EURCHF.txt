@@ -1,0 +1,42 @@
+BackTest Martingale EUR/CHF - performance report
+
+Test period         02.01.2013-22.11.2013
+Lookback time       3100 bars (13 weeks)
+Assumed slippage    10.0 sec
+Assumed spread      2.4 pips (roll 0.02/-0.06)
+Contracts per lot   1000
+Capital invested    10000$
+
+Gross win/loss      1940$ / -264$ (+20726p)
+Average profit      1888$/year, 157$/month, 7.26$/day
+Max drawdown        -319$ 19% (MAE -381$ 23%)
+Total down time     70% (TAE 93%)
+Max down time       6 weeks from Mar 2013
+Largest margin      365$
+Trade volume        458923$ (516687$/year)
+Transaction costs   -89$ spr, 9.20$ slp, 6.48$ rol
+Capital required    532$
+
+Number of trades    166 (187/year, 4/week, 1/day)
+Percent winning     73%
+Max win/loss        219$ / -18$
+Avg trade profit    10$ 124.9p (+16$ / -5.99$)
+Avg trade slippage  0.06$ 0.7p (+0.16$ / -0.04$)
+Avg trade bars      288 (+160 / -643)
+Max trade bars      1495 (6 weeks)
+Time in market      440%
+Max open trades     10
+Max loss streak     7 (uncorrelated 4)
+
+Annual growth rate  19%
+Profit factor       7.36 (PRR 5.81)
+Sharpe ratio        2.04
+Kelly criterion     22.14
+Ulcer index         3.8%
+Prediction error    51%
+
+Portfolio analysis  OptF  ProF  Win/Loss  Wgt%
+
+EUR/CHF             .1000  7.36  122/44  100.0  
+EUR/CHF:L           .1000  7.36  122/44  100.0  
+EUR/CHF:S           .1000  ----    0/0     0.0  
